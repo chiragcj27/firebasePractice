@@ -1,0 +1,47 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles2.css">
+</head>
+
+<body>
+    <div class="LoginContainer">
+        <div class="WelcomeAndInfo">
+            <h1 class="WelcomeBack">Roll the Carpet!</h1>
+            <p class="InfoMessage">Enter your personal details and start your journey with us.</p>
+        </div>
+
+        <form id="registerForm" class="LoginForm">
+            <h1 class="LoginTitle">Register</h1>
+            <p class="GladYouReBack">Just some details to get us in!</p>
+            <div class="InputField">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter your username">
+            </div>
+            <div class="InputField">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Enter your email">
+            </div>
+            <div class="InputField">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password">
+                <div class="ClosedEye"></div>
+            </div>
+            <div class="InputField">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" placeholder="Confirm your password">
+                <div class="ClosedEye"></div>
+            </div>
+            <button type="submit" class="SignupButton" id = "submit">Signup</button>
+            <p class="RegisterLink">Already have an account? <a href="/index.html">Login here.</a></p>
+        </form>
+    </div>
+
+    <script type = "module" src="register.js" defer></script>
+
+</body>
+
+</html>

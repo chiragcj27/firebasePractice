@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="LoginContainer">
+        <div class="WelcomeAndInfo">
+            <h1 class="WelcomeBack">Welcome Back!</h1>
+            <p class="InfoMessage">To stay connected with us, please<br>login with your personal info.</p>
+        </div>
+
+        <div class="LoginForm">
+            <h1 class="LoginTitle">Login</h1>
+            <p class="GladYouReBack">Glad you're back!</p>
+            <form id="loginForm" action="#" method="POST">
+                <div class="InputField">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Enter your email">
+                </div>
+                <div class="InputField">
+                    <label for="password">Password</label>
+                    <div class="PasswordContainer">
+                        <input type="password" id="password" name="password" placeholder="Enter your password">
+                        <div class="EyeIcon" onclick="togglePasswordVisibility()"></div>
+                    </div>
+                </div>
+                <input type="submit" class="LoginButton" value="Login">
+            </form>
+            <p class="RegisterLink">Don’t have an account yet? <a href="/register.html">Register here.</a></p>
+        </div>
+    </div>
+
+    <script type="module" src="script.js" defer></script>
+</body>
+
+</html>
